@@ -45,3 +45,28 @@ function myConvertFunction() {
     
 
 }
+function myConvertParameters() {
+  var text = document.getElementById("myText").value;
+  var index = text.indexOf("class");
+  var index2 = text.indexOf("{");
+  var table_name = text.substring(index + 6, index2).trim();
+  var table_col = text.substring(index2 + 1).trim();
+  table_col = table_col.replaceAll("  ", " ").trim();
+  var table_col_list = table_col.split("\n");
+
+  for (let i = 0; i < table_col_list.length; i++) {
+      table_col_list[i] = table_col_list[i].trim()
+  }
+  var result ="";
+  for (let i = 0; i < table_col_list.length - 1; i++) {
+      result += "parameters.Add(\"\@" + table_col_list[i].split(" ")[2] + "\", "+table_name.toLowerCase()+"\."+ table_col_list[i].split(" ")[2] +");\n" ;
+
+     
+  } 
+  
+  
+
+  document.getElementById("myText2").value = result;
+  
+
+}
