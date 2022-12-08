@@ -184,3 +184,11 @@ function myPagingPROCEDURE() {
   result2 += "ORDER BY "+ table_name + ".Created\nOFFSET (@Page-1)*@NumberOfRecord ROWS\nFETCH NEXT @NumberOfRecord ROWS ONLY\nGO;";
   document.getElementById("myText2").value = result+"\n"+result2;
 }
+function ResponseBody2Objext() {
+  var text = document.getElementById("myText").value;
+  //var result =  text.replaceAll("\"", " ");
+  // result =  result.replaceAll("\: ", "=");
+  var result =  text.replaceAll("      \"", "");
+ result =  result.replaceAll("\"\: ", "=");
+  document.getElementById("myText2").value = result;
+}

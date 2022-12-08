@@ -1,0 +1,40 @@
+* {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+.navbar-nav > .nav-item {
+  background-color: #198754;
+  border-radius: 6px;
+  margin: 0px 8px;
+}
+.underline {
+  text-decoration: underline;
+}
+.not-support-item {
+  background-color: red !important;
+  cursor: default;
+}
+
+article {
+  margin: auto !important;
+  width: 90%;
+  background-color: gray;
+  padding: 20px;
+}
+
+section > textarea {
+  width: 100%;
+  height: 400px;
+}
+.input {
+  background-color: red;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+.result {
+  background-color: #198754;
+  padding: 5px 20px;
+}
+.my-btn {
+  margin: 20px 12px 10px 89px;
+}
