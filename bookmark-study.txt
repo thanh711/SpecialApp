@@ -1,0 +1,25 @@
+chorme extension
+https://www.freecodecamp.org/news/building-chrome-extension/#how-to-create-a-chrome-extension
+https://www.youtube.com/watch?v=0n809nd4Zu4&ab_channel=freeCodeCamp.org
+
+toeic 
+https://hochay.com/luyen-thi-toeic/sach-luyen-thi-ets-toeic-2020-test-2-reading-hoc-hay-432.html
+https://www.studocu.com/vn/document/truong-dai-hoc-bach-khoa-dai-hoc-da-nang/english/answer-key-toeic-600/35754102
+
+interview c#
+https://fpt-software.udemy.com/course/csharp-advanced/learn/lecture/1988782#overview
+
+icon bostrap4
+https://fontawesome.com/v4/icon/eye-slash
+
+Master Bootstrap 5 and build real-world projects
+https://fpt-software.udemy.com/course/bootstrap-essential-training-with-projects/learn/lecture/33775096#overview
+
+Master unit testing C# code with NUnit and Moq: all about dependency injection, best practices and pitfalls to avoid
+https://fpt-software.udemy.com/course/unit-testing-csharp/learn/lecture/8997714#overview
+
+Testing with a mocking framework
+https://learn.microsoft.com/en-us/ef/ef6/fundamentals/testing/mocking
+
+Demo3Layer code mẫu anh hoàng
+https://gitlab.com/hoangcntt4/hn_fr_net_05/-/tree/NPL/Day3/Demo3Layer
